@@ -1,1 +1,27 @@
-<p>hello</p>
+{{#each posts}}
+    <div class="postArea">
+        <section class="posts">
+            <div class="postHead">
+                {{!-- <p class="postTitle">Test title for the post</p> --}}
+                <button class="postTitle">{{title}}</button>
+                {{!-- <p class="poster">Test name</p> --}}
+                <p class="poster">Posted by: {{userName}}</p>
+            </div>
+            {{!-- <p class="postContent">Random text just to fill the space.</p> --}}
+            <p class="postContent">{{content}}</p>
+        </section>
+
+        {{!-- <section class="newComment">
+            <textarea class="newCommentText"></textarea>
+            <button class="newCommentBtn">Submit</button>
+        </section> --}}
+
+        {{!-- <section class="comments">
+            <div class="commentHead">
+                <p class="commentUser">test user</p>
+            </div>
+            <p class="commentContent"> random commetn on the post</p>
+        </section> --}}
+    </div>
+{{/each}}
+<script src="/js/home.js"></script>

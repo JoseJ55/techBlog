@@ -17,7 +17,6 @@ body {
 }
 
 /* ---------------main header section ---------------------- */
-
 header {
     width: 100%;
     background-color: var(--main-color);
@@ -51,4 +50,156 @@ header {
     border-radius: 1rem 1rem 1rem;
     box-shadow: .5rem .5rem var(--secondary-shadow);
     margin-bottom: 2vh;
+}
+
+/* -------------------homepage css------------------------ */
+/* main post css */
+.posts{
+    width: 80%;
+    margin: auto;
+    border: var(--main-color) 4px solid;
+    margin-top: 2vh;
+}
+
+.postHead{
+    display: flex;
+    background-color: var(--main-color);
+    width: 96%;
+    padding: 2% 2%;
+    color: var(--text-color)
+}
+
+.postTitle{
+    width: 60%;
+    font-size: 150%;
+    text-align: left;
+    border: none;
+    background-color: var(--main-color);
+    cursor: pointer;
+    color: var(--text-color);
+}
+
+.poster{
+    width: 40%;
+    font-size: 120%;
+    text-align: right;
+}
+
+.postContent{
+    padding: 1vh 2vw;
+    width: 100%;
+    font-size: 120%;
+}
+
+/* comments section */
+.newComment{
+    width:75%;
+    margin: auto;
+    margin-top: 1vh;
+    border: var(--main-color) 4px solid;
+    padding: 1vh 1vw;
+}
+
+.newCommentText {
+    width: 98%;
+    resize: none;
+    font-size: 120%;
+    padding: 1% 1%;
+}
+
+.newCommentBtn {
+    width:10%;
+   align-items: right;
+}
+
+.comments {
+    width: 75%;
+    margin: auto;
+    border: var(--main-color) 4px solid;
+    margin-top: 1vh;
+}
+
+.commentHead {
+    background-color: var(--main-color);
+    width:92%;
+    padding: 1% 4%;
+    text-align: right;
+}
+
+.commentUser {
+    font-size: 130%;
+    color: var(--text-color);
+}
+
+.commentContent {
+    font-size: 115%;
+    padding: 1vh 2vw;
+}
+
+/* --------------dashboard page---------------------------- */
+/* button to add post */
+.addPosts {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    padding: 2vh 0;
+}
+
+.addPostsarea{
+    display: flex;
+    justify-content: center;
+}
+
+.addPostsBtn{
+    width: 15%;
+    background-color: var(--main-color);
+    padding: 2vh 2vw;
+    font-size: 120%;
+    border-radius: 1rem 1rem 1rem;
+    color: var(--text-color);
+}
+
+/* add data section */
+.addPostData{
+    width: 80%;
+    margin: auto;
+    margin-top: 2vh;
+    border: var(--main-color) 4px solid;
+}
+
+.addPostHead{
+    width: 96%;
+    color: var(--text-color);
+    background-color: var(--main-color);
+    font-size: 140%;
+    padding: 1% 2%;
+}
+
+.addPostData p{
+    width: 96%;
+    padding: 1% 2%;
+    font-size: 120%;
+}
+
+.addPostTitle{
+    width: 96%;
+    padding: 1% 1%;
+    font-size: 120%;
+    margin: 0 1%;
+}
+
+.addPostText{
+    width: 96%;
+    padding: 1% 1%;
+    font-size: 120%;
+    margin: 0 1%;
+    resize: none;
+}
+
+.addPostBtn{
+    width: 98%;
+    padding: 1% 0;
+    margin: 1% 1%;
+    font-size: 110%;
+    cursor: pointer;
 }
