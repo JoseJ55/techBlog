@@ -203,3 +203,136 @@ header {
     font-size: 110%;
     cursor: pointer;
 }
+
+/* -----------------------------login page----------------------- */
+/* login section */
+.loginForm{
+    width: 60%;
+    margin: auto;
+    margin-top: 2vh;
+    border: var(--main-color) 4px solid;
+}
+
+.loginFormHead{
+    background-color: var(--main-color);
+    color: var(--text-color);
+    font-size: 140%;
+}
+
+.loginFormTitle{
+    width: 98%;
+    background-color: var(--main-color);
+    padding: 1% 1%;
+    color: var(--text-color);
+    font-size: 120%;
+}
+
+.loginFormData {
+    width: 96%;
+    margin: 1% 1%;
+    padding: 1% 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginFormUserTitle{
+    width: 98%;
+    font-size: 120%;
+    padding: 1% 1%;
+}
+
+.loginFormUser{
+    width: 98%;
+    font-size: 130%;
+    padding: 1% 1%;
+}
+
+.loginFormPassTitle{
+    width: 98%;
+    font-size: 120%;
+    padding: 1% 1%;
+}
+
+.loginFormPass{
+    width: 98%;
+    font-size: 130%;
+    padding: 1% 1%;
+}
+
+.loginFormSubmit{
+    width: 98%;
+    padding: 1vh 1vw;
+    font-size: 120%;
+    background-color: grey;
+    margin-top: 2vh;
+    border-radius:  1rem 1rem 1rem;
+}
+
+.signupIn{
+    padding: 0 2vw;
+    margin-bottom: 1vh;
+    font-size: 120%;
+}
+
+/* signup section */
+.signupForm{
+    width: 60%;
+    margin: auto;
+    margin-top: 2vh;
+    border: var(--main-color) 4px solid;
+}
+
+.signupFormHead{
+    background-color: var(--main-color);
+    color: var(--text-color);
+    font-size: 140%;
+}
+
+.signupFormTitle{
+    width: 98%;
+    background-color: var(--main-color);
+    padding: 1% 1%;
+    color: var(--text-color);
+    font-size: 120%;
+}
+
+.signupFormData {
+    width: 96%;
+    margin: 1% 1%;
+    padding: 1% 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+.signupFormUserTitle{
+    width: 98%;
+    font-size: 120%;
+    padding: 1% 1%;
+}
+
+.signupFormUser{
+    width: 98%;
+    font-size: 130%;
+    padding: 1% 1%;
+}
+
+.signupFormPassTitle{
+    width: 98%;
+    font-size: 120%;
+    padding: 1% 1%;
+}
+
+.signupFormPass{
+    width: 98%;
+    font-size: 130%;
+    padding: 1% 1%;
+}
+
+.signupFormSubmit{
+    width: 98%;
+    padding: 1vh 1vw;
+    font-size: 120%;
+    background-color: grey;
+    margin-top: 2vh;
+    border-radius:  1rem 1rem 1rem;
+}

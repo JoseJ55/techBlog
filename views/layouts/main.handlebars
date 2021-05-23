@@ -12,7 +12,11 @@
         <div id="navbar">
             <p><a id="homeLink" href="/">Home</a></p>
             <p><a id="DashLink" href="/dashboard">Dashboard</a></p>
-            <p><a id="logLink" href="/">Log</a></p>
+            {{#if loggedIn}}
+                <p><a id="logLink" href="/login">Logout</a></p>
+            {{else}}
+                <p><a id="logLink" href="/login">Login</a></p>
+            {{/if}}
         </div>
         <div id="pageTitle">
             <h2 id="titletext">The tech Blog</h2>
